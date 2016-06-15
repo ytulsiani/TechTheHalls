@@ -1,12 +1,6 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Business Casual](http://startbootstrap.com/template-overviews/business-casual/)
+# [Tech The Halls](http://techthehalls.gtorg.gatech.edu/)
 
-[Business Casual](http://startbootstrap.com/template-overviews/business-casual/) is a multipurpose website theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
-
-## Getting Started
-
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+This is a website for a Georgia Tech organization raising awareness for underprivliged youth in Atlanta and working to give them a better holiday season and a better future. Website is designed based on a Bootstrap template (Credit to [IronSummitMedia](https://github.com/IronSummitMedia/)) using javascript and the jquery library.
 
 ## Bugs and Issues
 
@@ -14,13 +8,8 @@ Have a bug or an issue with this theme? [Open a new issue](https://github.com/Ir
 
 ## Creator
 
+Website was designed by **Yash Tulsiani**, Vice President of Marketing for [Tech The Halls](http://techthehalls.gtorg.gatech.edu/).
+
 Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
