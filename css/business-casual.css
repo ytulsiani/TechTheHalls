@@ -194,20 +194,9 @@ footer p {
 .navbar {
         border-radius: 0;
     }
-.Aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media only screen and (max-width: 1026px) {
+    .facebook_like {
+        display: none;
+    }
 }
-
-.Aligner-item {
-  max-width: 50%;
-}
-
-.Aligner-item--top {
-  align-self: flex-start;
-}
-
-.Aligner-item--bottom {
-  align-self: flex-end;
-}
+@media only screen and (min-width: )
