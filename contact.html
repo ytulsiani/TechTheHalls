@@ -3,13 +3,15 @@
 
 <head>
 
+    <link rel= "shortcut icon" href= "favicon.ico" type= "image/x-icon" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Tech The Halls is an Georgia Tech organization that helps bring the holiday season to underprivileged children
+    in the Atlanta area.">
+    <meta name="author" content="Yash Tulsiani">
 
-    <title>Contact - Business Casual - Start Bootstrap Theme</title>
+    <title>TTH - Contact</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,8 +34,8 @@
 
 <body>
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+    <div class="brand"><span id="color1">Tech The Halls</span> <span class="georgia_tech_blue">Georgia</span> <span class="georgia_tech_gold">Tech</span></div>
+    <div class="address-bar">Help Give Back To Atlanta's Underprivileged Youth Community</div>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
@@ -47,7 +49,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+                <a class="navbar-brand" href="index.html">Tech The Halls</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,15 +57,26 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="about.html">About
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="exec.html">Executive Board</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="info.html">Information
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mentors.html">Mentors</a></li>
+                            <li><a href="sponsors.html">Sponsors</a></li>
+                            <li><a href="dates.html">Upcoming Dates</a></li>
+                        </ul>
                     </li>
                     <li class="active">
                         <a href="contact.html">Contact</a>
                     </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -82,21 +95,40 @@
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-8">
-                    <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-                    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <div class="col-lg-12">
+                    <p>We're glad you have questions! And, trust us, we'd be more than happy to help you help make Atlanta a better community for us all. To contact us, you can <a href="http://www.facebook.com/TechTheHalls/">like and message us on facebook</a>, email us at one of the follwing places, or drop some information down below! 
+                    </p>
                 </div>
-                <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
+                <div class="col-lg-4">
+                    <p>General Questions:
+                        <p><strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        </p>
                     </p>
-                    <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                    <p>Upper Leadership:
+                        <p><strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        </p>
                     </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
+                </div>
+                <div class="col-lg-4">
+                    <p>Sponsorship and Fundraising:
+                        <p><strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        </p>
                     </p>
+                    <p>Mentorship:
+                        <p><strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        </p>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>External Affairs:
+                        <p><strong><a href="mailto:tthexternalaffairs@gmail.com">tthexternalaffairs@gmail.com</a></strong>
+                        </p>
+                    </p>
+                    <p>Finances:
+                        <p><strong><a href="mailto:techthehallsfinance@gmail.com">techthehallsfinance@gmail.com</a></strong>
+                        </p>
+                    </p>
+
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -110,7 +142,7 @@
                         <strong>form</strong>
                     </h2>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+                    <p>We're commited to getting back to you in a prompt manner! You should recieve a reply within 24 hours of you completing this form.</p>
                     <form role="form">
                         <div class="row">
                             <div class="form-group col-lg-4">
@@ -147,7 +179,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Tech The Halls 2016. Website designed by <a href="http://www.ytulsiani.com">Yash Tulsiani</a></p>
                 </div>
             </div>
         </div>
