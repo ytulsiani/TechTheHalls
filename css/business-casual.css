@@ -194,9 +194,50 @@ footer p {
 .navbar {
         border-radius: 0;
     }
-@media only screen and (max-width: 1026px) {
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+@media only screen and (max-width: 922px) {
     .facebook_like {
         display: none;
     }
+    .facebook_like_mobile {
+        display: block;
+        align: center;
+    }
+
 }
-@media only screen and (min-width: )
+.facebook_like_mobile {
+    display: none;
+}
+.facebook_like_mobile_small {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 361px){
+    .facebook_like_mobile {
+        display: block;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .facebook_like_mobile_small {
+        display: block;
+    }
+}
+
+#color1 {
+    color:#C93E4F;
+}
+#color2 {
+    color:#3C8D0D;
+}
+#color3 {
+    color:#3D1734;
+}
+.georgia_tech_blue {
+    color:#062A4C;
+}
+.georgia_tech_gold {
+    color: #F0BE21;
+}
