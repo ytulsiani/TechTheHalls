@@ -241,3 +241,6 @@ display: block;
 .georgia_tech_gold {
     color: #F0BE21;
 }
+br {
+    line-height: 50%;
+}
