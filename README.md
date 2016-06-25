@@ -1,6 +1,6 @@
 # [Tech The Halls](http://techthehalls.gtorg.gatech.edu/)
 
-This is a website for a Georgia Tech organization raising awareness for underprivliged youth in Atlanta and working to give them a better holiday season and a better future. Website is designed based on a Bootstrap template (Credit to [IronSummitMedia](https://github.com/IronSummitMedia/)) using javascript and the jquery library.
+This is a website for a Georgia Tech organization raising awareness for underprivileged youth in Atlanta and working to give them a better holiday season and a better future. Website is designed based on a Bootstrap template (Credit to [IronSummitMedia](https://github.com/IronSummitMedia/)) using javascript and the jquery library.
 
 ## Bugs and Issues
 
