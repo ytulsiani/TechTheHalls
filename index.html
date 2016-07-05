@@ -133,13 +133,13 @@
                 <div class="col-lg-8">
                     <hr>
                     <h2 class="intro-text text-center">Story time!
-                        <strong> We promise we're not too boring.</strong>
+                        <strong> We promise we're not boring.</strong>
                     </h2>
                     <hr>
                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
                     <hr class="visible-xs">
-                    <p></p>
-                    <p>Arund % of kids in inner city schools ___. That's something that needs to change. That's why we want to ___. </p>
+                    <p>It's common knowlege that inner-city children are at a larger risk for </p>
+                    <p>We know this is a problem. A problem that we can solve. That's what we want to help fix. </p>
                     <p>Some more info.</p>
                 </div>
                 <div class="col-lg-4">
@@ -159,7 +159,7 @@
                         <strong>We know you can!</strong>
                     </h2>
                     <hr>
-                    <p>You've already took the fist step by visiting our site and reading about what we do and what we hope to accomplish! But, why stop there. A ton goes on behind the scenes to make sure each Tech The Halls is an amazing event! Read more <a href="about.html">about Tech The Halls</a> to the ways you can contribute to Atlanta's youth!</p>
+                    <p>You've already took the fist step by visiting our site and reading about what we do! But, why stop there. A ton goes on behind the scenes to make sure each Tech The Halls is a rewarding experience to everyone involved. Read more <a href="about.html"><strong>about</strong> Tech The Halls here</a> and keep updated with our events <a href = "http://www.facebook.com/TechTheHalls/">on our <strong>Facebook</strong> page.</a></p>
                 </div>
             </div>
         </div>
@@ -183,12 +183,44 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Typed js for text typing/deleting -->
+    <script src="js/typed.min.js"></script>
+
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
     </script>
+    <!-- Script to activate typed text -->
+    <!-- <script>
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    //function newTyped(){ /* A new typed object */ }
+
+    //function foo(){ console.log("Callback"); }
+
+    </script> -->
+
 
 </body>
 
