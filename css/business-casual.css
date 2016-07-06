@@ -244,9 +244,10 @@ display: block;
 br {
     line-height: 50%;
 }
-typed {
 
-}
-typed-text {
-
+.btn-socialmedia {
+  color: #dfe3ee;
+  background-color: #3B5998;
+  border-color: #dfe3ee;
+  border-width: thin;
 }
